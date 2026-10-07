@@ -957,7 +957,9 @@ source = { virtual = "." }
 dependencies = [
     { name = "goes2go" },
     { name = "h5py" },
+    { name = "matplotlib" },
     { name = "numpy" },
+    { name = "pillow" },
 ]
 
 [package.dev-dependencies]
@@ -974,7 +976,9 @@ dev = [
 requires-dist = [
     { name = "goes2go", specifier = ">=2025.10.0" },
     { name = "h5py", specifier = ">=3.16.0" },
+    { name = "matplotlib", specifier = ">=3.11.2" },
     { name = "numpy", specifier = ">=2.0" },
+    { name = "pillow", specifier = ">=12.3.0" },
 ]
 
 [package.metadata.requires-dev]
