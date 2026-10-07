@@ -9,6 +9,8 @@ authors = [{ name = "Matias Viva" }]
 
 dependencies = [
     "numpy>=2.0",
+    "goes2go>=2025.10.0",
+    "h5py>=3.16.0",
 ]
 
 [dependency-groups]
